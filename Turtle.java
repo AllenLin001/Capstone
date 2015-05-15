@@ -89,7 +89,7 @@ public class Turtle {
 
     public void fire() 
     {
-        waterballs.add(new Waterball(x + width, y + height/2));
+        waterballs.add(new Waterball(x + width -80, y + height/2 -15));
     }
 
     public void keyReleased(KeyEvent event) {
