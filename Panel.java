@@ -45,7 +45,7 @@ public class Panel extends JPanel implements ActionListener {
         for (int i=0; i<waterballs.size();i++)
         {
             Waterball wb = (Waterball)waterballs.get(i);
-            g2d.drawImage(wb.getImage(),wb.getX()-80,wb.getY()-15,this);
+            g2d.drawImage(wb.getImage(),wb.getX(),wb.getY(),this);
         }
 
         Toolkit.getDefaultToolkit().sync();
